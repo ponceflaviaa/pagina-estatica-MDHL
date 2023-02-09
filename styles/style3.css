@@ -7,10 +7,6 @@
 html{
     background-color: #f8f8ee52;
     background-attachment: scroll;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: stretch;
-    background-size: cover;
     min-width: 99vw;
     min-height: 99vh;
     
@@ -34,7 +30,6 @@ header{
     justify-content: center;
     flex-wrap: wrap;
     height: 15.1vh;
-    width: 100vw;
 
 }
 
@@ -111,7 +106,7 @@ nav{
     background-color: #46847cf6;
     border: solid #c44a34;
     justify-content: space-evenly;
-    max-width: 77vw;
+    width: 100%;
     align-items: center;
     font-size: x-large;
     flex-wrap: wrap;
